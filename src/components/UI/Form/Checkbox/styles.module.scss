@@ -1,0 +1,35 @@
+@import "../../../../styles/variables";
+
+.checkbox {
+  display: inline-block;
+  height: 1.6rem;
+  width: 1.6rem;
+  background: $color-primary-gray4;
+  border: 1px solid $color-primary-gray6;
+  border-radius: 4px;
+  position: relative;
+}
+
+.checkbox--active {
+  &:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1rem;
+    height: 1rem;
+    background: $color-primary-gray6;
+    border-radius: 2px;
+  }
+}
+
+.input {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

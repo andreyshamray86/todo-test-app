@@ -1,0 +1,25 @@
+$color-primary-black: #555;
+$color-neuteral-white: #fff;
+$color-primary-gray: #616c82;
+$color-primary-gray2: #7b8aab;
+$color-primary-gray3: #aab7d4;
+$color-primary-gray4: #f8fafb;
+$color-primary-gray5: #ebeef6;
+$color-primary-gray6: #aab7d4;
+$color-primary-green: #50b810;
+$color-primary-blue: #3d8fec;
+$color-primary-blue2: #f4f8ff;
+$color-violet: #b233a6;
+
+:export {
+  color-primary-black: $color-primary-black;
+  color-primary-gray: $color-primary-gray;
+  color-primary-gray2: $color-primary-gray2;
+  color-primary-gray3: $color-primary-gray3;
+  color-primary-gray4: $color-primary-gray4;
+  color-primary-gray5: $color-primary-gray5;
+  color-neuteral-white: color-neuteral-white;
+  color-primary-green: $color-primary-green;
+  color-primary-blue: $color-primary-blue;
+  color-violet: $color-violet;
+}

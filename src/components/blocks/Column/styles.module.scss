@@ -1,0 +1,72 @@
+@import "../../../styles/variables";
+
+.wrapper {
+  width: 26.3rem;
+  height: 79.56%;
+  padding-right: 2px;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $color-primary-gray5;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $color-primary-black;
+    border-radius: 4px;
+  }
+}
+
+.header {
+  display: flex;
+}
+
+.title {
+  flex-grow: 1;
+  color: $color-primary-green;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.add-button {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.8rem;
+  background-color: $color-primary-gray5;
+  border-radius: 4px;
+}
+
+.tasks-quantity {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  border: 1px solid $color-primary-gray2;
+  border-radius: 4px;
+}
+
+.quantity-value {
+  color: $color-primary-black;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.tasks-wrapper {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.8rem;
+}
+
+.loader {
+  margin-top: 2rem;
+}

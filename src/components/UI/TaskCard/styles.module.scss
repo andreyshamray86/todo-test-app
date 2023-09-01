@@ -1,0 +1,63 @@
+@import "../../../styles/variables";
+
+.wrapper {
+  width: 100%;
+  padding: 0.4rem;
+  background-color: $color-primary-blue2;
+  border-radius: 7px;
+}
+
+.inner {
+  padding: 1rem;
+  background-color: $color-neuteral-white;
+  border-radius: 5px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-left: 0.8rem;
+  color: $color-primary-blue;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+}
+
+.dates {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.8rem;
+}
+
+.date {
+  color: $color-primary-green;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.description {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 0.4rem;
+  color: $color-primary-black;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.8rem;
+}

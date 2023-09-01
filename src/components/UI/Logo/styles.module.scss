@@ -1,0 +1,12 @@
+.wrapper {
+  position: absolute;
+  left: 2.3rem;
+  top: 2.3rem;
+
+  @media screen and (max-width: 600px) {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 2rem;
+  }
+}
